@@ -1,0 +1,11 @@
+[package]
+name = "pct-art"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.18.0", default-features = false, features = ["zstd_c", "2d", "ui", "audio", "wav", "debug", "tonemapping_luts"] }
+gpx = "0.10.0"
+time = "0.3.44"
+rand = "0.10.0"
+circular-queue = "0.2.7"
